@@ -58,6 +58,7 @@ class OnboardingPage extends StatelessWidget {
               bottom: 20,
               left: 20,
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: List.generate(
                   _controller.onboardingPages.length,
                   (index) => Obx(() {
@@ -82,7 +83,9 @@ class OnboardingPage extends StatelessWidget {
               child: FloatingActionButton(
                 elevation: 0,
                 child: Obx(() {
-                  return Text(_controller.isLastPage ? 'Basla' : "Ileri");
+                  return Icon(_controller.isLastPage
+                      ? Icons.check
+                      : Icons.arrow_forward);
                 }),
                 onPressed: _controller.forwardAction,
               ),
