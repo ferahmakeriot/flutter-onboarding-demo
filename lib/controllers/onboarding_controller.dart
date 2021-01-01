@@ -18,18 +18,18 @@ class OnboardingController extends GetxController {
   List<OnboardingInfo> onboardingPages = [
     OnboardingInfo(
       'assets/order.png',
-      'Yemegini Siparis Et',
+      'Yemeğini Sipariş Et',
       'Artık cep telefonunuzdan istediğiniz zaman yemek sipariş edebilirsiniz',
     ),
     OnboardingInfo(
       'assets/cook.png',
-      'Güvenli Yemek Pisirme',
-      'Güvenligi koruyoruz ve yemek yaparken temiz tutuyoruz.',
+      'Güvenli Yemek Pişirme',
+      'Güvenliği koruyoruz ve yemek yaparken temiz tutuyoruz.',
     ),
     OnboardingInfo(
       'assets/deliver.png',
-      'Hızlı teslimat',
-      'En sevdiginiz yemeklerin hemen teslim edilecegi siparisler',
+      'Hızlı Teslimat',
+      'En sevdiğiniz yemeklerin hemen teslim edileceği siparişler',
     ),
   ];
 }
